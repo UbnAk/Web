@@ -1,0 +1,132 @@
+.header {
+    min-height: 500px;
+    background-image: url(https://phonoteka.org/uploads/posts/2021-04/1617831404_50-p-fon-marvel-53.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    position: relative;
+
+}
+
+.header::after {
+    content: "";
+    position: absolute;
+    /*растягиваем*/
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0.6;
+}
+
+
+.container {
+    width: 1200px;
+    min-height: 450px;
+    margin: 0 auto;
+    padding: 0 15px 15px;
+    box-sizing: border-box;
+    position: relative;
+    /* задаем чтобы сработал z-index отличном от релайтив*/
+    z-index: 1;
+}
+
+
+.menu-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-left: 0;
+}
+
+.menu-item {
+    margin-left: 100px;
+
+}
+
+.menu-link {
+    text-transform: uppercase;
+    font-family: sans-serif, 'Times New Roman', Times;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.primary-content {
+    display: flex;
+    width: 1200px;
+    margin: 0px auto;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVOZBROZP7r4-tSKXfukaoowl9VS_qGl0BeA&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.logo-st {
+    color: #ffffff;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 800px;
+
+}
+
+h1 {
+    font-size: 34px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+h2 {
+    font-size: 25px;
+}
+
+.nav_1 {
+    color: #ffffff;
+
+}
+
+.link {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+.nav {
+    margin-bottom: 35px;
+    margin-left: 40px;
+    border: 1px solid white;
+}
+
+.post {
+    width: 250px;
+    height: 250px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.link {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+
+.main-container {
+    margin-left: auto;
+    margin-right: auto;
+
+}
